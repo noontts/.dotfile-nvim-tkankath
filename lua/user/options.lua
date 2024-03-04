@@ -14,5 +14,5 @@ vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
 vim.g.netrw_banner = 0
 
 vim.cmd('set whichwrap+=<,>,[,],h,l')
-vim.cmd('colorscheme kanagawa')
+vim.cmd('colorscheme catppuccin')
 
