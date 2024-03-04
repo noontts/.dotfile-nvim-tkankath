@@ -5,4 +5,4 @@ require 'user.keymaps'
 require 'user.lsp'
 require 'user.cmp'
 require 'user.treesitter'
-
+require 'user.idl'
