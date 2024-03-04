@@ -64,9 +64,7 @@ require('packer').startup(function(use)
   use {
     'goolord/alpha-nvim',
     requires = { 'nvim-tree/nvim-web-devicons' },
-    config = function ()
-      require'alpha'.setup(require'alpha.themes.startify'.config)
-    end
+    lazy = true,
   }
   use {
     'nvim-treesitter/nvim-treesitter',
