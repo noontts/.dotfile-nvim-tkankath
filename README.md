@@ -44,8 +44,8 @@ Then restart nvim Enjoy >3
 
 
 For Inteli
-
+```bash
 1.Install ideavim
 2.Install WhichKey
-
+```
 Enjoy >3
