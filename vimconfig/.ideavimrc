@@ -1,4 +1,3 @@
-
 " .ideavimrc is a configuration file for IdeaVim plugin. It uses
 "   the same commands as the original .vimrc configuration.
 " You can find a list of commands here: https://jb.gg/h38q75
@@ -12,7 +11,7 @@ set scrolloff=5
 
 " Do incremental searching.
 set incsearch
-
+set which-key
 " Don't use Ex mode, use Q for formatting.
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
@@ -28,13 +27,16 @@ Plug 'tpope vim-commentary'
 
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
-
-set <leader> to <space>
 "" Map \b to toggle the breakpoint on the current line
 nmap <Tab>          <action>(NextTab)
 nmap <S-Tab>        <action>(PreviousTab)
-nmap <leader>r      <action>(ReformatCode)
+nmap <Space>r      <action>(ReformatCode)
+
+let g:WhichKeyDesc_windows_maximize = "<leader>wm maximize"
+let g:WhichKey_FontSize             =16
+let g:WhichKey_DefaultDelay         =0
 
 " Error Handle
-nmap <leader>n      :action GotoNextError<CR>
+nmap <Space>n      :action GotoNextError<CR>
 map gh              <action>(ShowErrorDescription)
+nnoremap <Space> <Nop>
