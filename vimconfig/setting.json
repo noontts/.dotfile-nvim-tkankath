@@ -1,0 +1,147 @@
+{
+    "editor.fontFamily": "MesloLGS NerdFont",
+    "workbench.colorTheme": "Kanagawa",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorCustomizations": {},
+    "workbench.iconTheme": "catppuccin-mocha",
+    "files.autoSave": "afterDelay",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<Tab>"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditor"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<S-Tab>"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.previousEditor"
+                }
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "b",
+                "<Tab>"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<Space>",
+                "w"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save"
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "d"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "i"
+            ],
+            "commands": [
+                "editor.action.peekImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "q"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "t"
+            ],
+            "commands": [
+                "editor.action.peekTypeDefinition"
+            ]
+        },
+    ],
+    "workbench.settings.applyToAllProfiles": [],
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "explicit"
+}
