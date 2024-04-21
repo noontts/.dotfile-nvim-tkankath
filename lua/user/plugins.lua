@@ -27,7 +27,6 @@ require('packer').startup(function(use)
   use {'hrsh7th/cmp-cmdline'}
   use {'L3MON4D3/LuaSnip'}
   use {'catppuccin/nvim', as = 'catppuccin'}
-  use {'lukas-reineke/indent-blankline.nvim'}
   use {
     'akinsho/bufferline.nvim',
     tag = "v3.*",
