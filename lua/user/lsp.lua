@@ -38,6 +38,8 @@ lspconfig.gopls.setup {
   filetypes = { "go", "gomod", "gowork", "gotmpl" },
 }
 
+lspconfig.dartls.setup {}
+
 lspconfig.kotlin_language_server.setup {}
 
 vim.api.nvim_create_autocmd('LspAttach', {

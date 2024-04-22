@@ -120,6 +120,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
+  ["dart-vim-plugin"] = {
+    loaded = true,
+    path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dart-vim-plugin",
+    url = "https://github.com/dart-lang/dart-vim-plugin"
+  },
   ["gitsigns.nvim"] = {
     config = { "\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
     loaded = true,
@@ -131,13 +141,18 @@ _G.packer_plugins = {
     path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lualine.nvim"] = {
-    config = { "\27LJ\2\n›\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\foptions\1\0\0\1\0\4\18icons_enabled\1\23section_separators\5\ntheme\rkanagawa\25component_separators\tðŸŒ¸\nsetup\flualine\frequire\0" },
+    config = { "\27LJ\2\n˜\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\foptions\1\0\0\1\0\4\ntheme\rkanagawa\23section_separators\5\25component_separators\6|\18icons_enabled\1\nsetup\flualine\frequire\0" },
     loaded = true,
     path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
@@ -151,6 +166,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-autopairs"] = {
+    config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -194,7 +217,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["toggleterm.nvim"] = {
-    config = { "\27LJ\2\nx\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\14direction\15horizontal\17open_mapping\n<C-g>\20shade_terminals\2\nsetup\15toggleterm\frequire\0" },
+    config = { "\27LJ\2\nx\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\17open_mapping\n<C-g>\14direction\15horizontal\20shade_terminals\2\nsetup\15toggleterm\frequire\0" },
     loaded = true,
     path = "C:\\Users\\Thitisan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
@@ -208,10 +231,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: lualine.nvim
-time([[Config for lualine.nvim]], true)
-try_loadstring("\27LJ\2\n›\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\foptions\1\0\0\1\0\4\18icons_enabled\1\23section_separators\5\ntheme\rkanagawa\25component_separators\tðŸŒ¸\nsetup\flualine\frequire\0", "config", "lualine.nvim")
-time([[Config for lualine.nvim]], false)
+-- Config for: bufferline.nvim
+time([[Config for bufferline.nvim]], true)
+try_loadstring("\27LJ\2\n\127\0\0\6\0\b\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0004\4\3\0005\5\3\0>\5\1\4=\4\5\3=\3\a\2B\0\2\1K\0\1\0\foptions\1\0\0\foffsets\1\0\0\1\0\1\rfiletype\rNvimTree\nsetup\15bufferline\frequire\0", "config", "bufferline.nvim")
+time([[Config for bufferline.nvim]], false)
+-- Config for: gitsigns.nvim
+time([[Config for gitsigns.nvim]], true)
+try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
+time([[Config for gitsigns.nvim]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
 try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
@@ -220,18 +247,21 @@ time([[Config for nvim-tree.lua]], false)
 time([[Config for zen-mode.nvim]], true)
 try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
 time([[Config for zen-mode.nvim]], false)
--- Config for: bufferline.nvim
-time([[Config for bufferline.nvim]], true)
-try_loadstring("\27LJ\2\n\127\0\0\6\0\b\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0004\4\3\0005\5\3\0>\5\1\4=\4\5\3=\3\a\2B\0\2\1K\0\1\0\foptions\1\0\0\foffsets\1\0\0\1\0\1\rfiletype\rNvimTree\nsetup\15bufferline\frequire\0", "config", "bufferline.nvim")
-time([[Config for bufferline.nvim]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+try_loadstring("\27LJ\2\n˜\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\foptions\1\0\0\1\0\4\ntheme\rkanagawa\23section_separators\5\25component_separators\6|\18icons_enabled\1\nsetup\flualine\frequire\0", "config", "lualine.nvim")
+time([[Config for lualine.nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\nx\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\14direction\15horizontal\17open_mapping\n<C-g>\20shade_terminals\2\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
+try_loadstring("\27LJ\2\nx\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\17open_mapping\n<C-g>\14direction\15horizontal\20shade_terminals\2\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
--- Config for: gitsigns.nvim
-time([[Config for gitsigns.nvim]], true)
-try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0", "config", "gitsigns.nvim")
-time([[Config for gitsigns.nvim]], false)
+vim.cmd [[augroup packer_load_aucmds]]
+vim.cmd [[au!]]
+  -- Event lazy-loads
+time([[Defining lazy-load event autocommands]], true)
+vim.cmd [[au InsertEnter * ++once lua require("packer.load")({'nvim-autopairs'}, { event = "InsertEnter *" }, _G.packer_plugins)]]
+time([[Defining lazy-load event autocommands]], false)
+vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

@@ -9,7 +9,6 @@ require('nvim-treesitter.configs').setup({
     'css',
     'json',
     'lua',
-    'astro',
   },
 })
 

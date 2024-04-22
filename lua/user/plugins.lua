@@ -27,6 +27,15 @@ require('packer').startup(function(use)
   use {'hrsh7th/cmp-cmdline'}
   use {'L3MON4D3/LuaSnip'}
   use {'catppuccin/nvim', as = 'catppuccin'}
+  use {'lukas-reineke/indent-blankline.nvim'}
+  use {'dart-lang/dart-vim-plugin'}
+  use {'neoclide/coc.nvim', branch = 'release'}
+  use {'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    config = function()
+        require("nvim-autopairs").setup {}
+    end
+  }
   use {
     'akinsho/bufferline.nvim',
     tag = "v3.*",
@@ -49,7 +58,7 @@ require('packer').startup(function(use)
           icons_enabled = false,
           theme = 'kanagawa',
           section_separators = '',
-          component_separators = '🌸'
+          component_separators = '|',
         }
       })
     end
