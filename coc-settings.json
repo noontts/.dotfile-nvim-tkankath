@@ -3,10 +3,4 @@
     "suggest.timeout": 1,
     "diagnostic.enable": false,
     "clangd.semanticHighlighting": true,
-    "languageserver": {
-        "kotlin": {
-            "command": "C:\\kt-server\\bin\\kotlin-language-server.bat",
-            "filetypes": ["kotlin"]
-        }
-    }
 }
