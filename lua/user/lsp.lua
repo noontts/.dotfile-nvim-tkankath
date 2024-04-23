@@ -40,6 +40,8 @@ lspconfig.gopls.setup {
 
 lspconfig.dartls.setup {}
 
+lspconfig.jdtls.setup {}
+
 lspconfig.kotlin_language_server.setup {}
 
 vim.api.nvim_create_autocmd('LspAttach', {

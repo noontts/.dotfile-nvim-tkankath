@@ -29,7 +29,6 @@ require('packer').startup(function(use)
   use {'catppuccin/nvim', as = 'catppuccin'}
   use {'lukas-reineke/indent-blankline.nvim'}
   use {'dart-lang/dart-vim-plugin'}
-  use {'udalov/kotlin-vim'}
   use {'neoclide/coc.nvim', branch = 'release'}
   use {'windwp/nvim-autopairs',
     event = "InsertEnter",
@@ -56,7 +55,7 @@ require('packer').startup(function(use)
     config = function()
       require('lualine').setup({
         options = {
-          icons_enabled = false,
+          icons_enabled = true,
           theme = 'kanagawa',
           section_separators = '',
           component_separators = '|',
