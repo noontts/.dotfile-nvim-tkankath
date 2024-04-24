@@ -10,6 +10,8 @@ require('nvim-treesitter.configs').setup({
     'json',
     'lua',
     'kotlin',
+    'dart',
+    'java'
   },
 })
 
