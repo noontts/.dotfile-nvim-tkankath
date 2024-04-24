@@ -28,8 +28,12 @@ require('packer').startup(function(use)
   use {'L3MON4D3/LuaSnip'}
   use {'catppuccin/nvim', as = 'catppuccin'}
   use {'lukas-reineke/indent-blankline.nvim'}
-  use {'dart-lang/dart-vim-plugin'}
-  use {'neoclide/coc.nvim', branch = 'release'}
+  use {
+    'akinsho/flutter-tools.nvim',
+    requires = {
+        'nvim-lua/plenary.nvim',
+    }
+  }
   use {'windwp/nvim-autopairs',
     event = "InsertEnter",
     config = function()
