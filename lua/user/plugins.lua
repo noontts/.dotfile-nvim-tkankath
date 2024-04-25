@@ -28,6 +28,7 @@ require('packer').startup(function(use)
   use {'L3MON4D3/LuaSnip'}
   use {'catppuccin/nvim', as = 'catppuccin'}
   use {'lukas-reineke/indent-blankline.nvim'}
+  use {'dart-lang/dart-vim-plugin'}
   use {
     'akinsho/flutter-tools.nvim',
     requires = {
